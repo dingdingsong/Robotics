@@ -30,6 +30,7 @@ namespace demo_nodes_cpp
     {
       // *******************************dingsong_test****************************************
       // *******************************dingsong_test****************************************
+      // ***********
       RCLCPP_INFO(get_logger(), "This example node shows a parameter callback that rejects");
       RCLCPP_INFO(get_logger(), "all parameter updates except for those that set an even integer.");
       RCLCPP_INFO(get_logger(), "Try running 'ros2 param set /even_parameters_node myint 2' to");
